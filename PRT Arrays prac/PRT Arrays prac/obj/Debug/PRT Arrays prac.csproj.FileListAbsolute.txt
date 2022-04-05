@@ -1,0 +1,7 @@
+C:\Users\Xoliswa Sitengile\source\repos\PRT Arrays prac\PRT Arrays prac\bin\Debug\PRT Arrays prac.exe.config
+C:\Users\Xoliswa Sitengile\source\repos\PRT Arrays prac\PRT Arrays prac\bin\Debug\PRT Arrays prac.exe
+C:\Users\Xoliswa Sitengile\source\repos\PRT Arrays prac\PRT Arrays prac\bin\Debug\PRT Arrays prac.pdb
+C:\Users\Xoliswa Sitengile\source\repos\PRT Arrays prac\PRT Arrays prac\obj\Debug\PRT Arrays prac.csprojAssemblyReference.cache
+C:\Users\Xoliswa Sitengile\source\repos\PRT Arrays prac\PRT Arrays prac\obj\Debug\PRT Arrays prac.csproj.CoreCompileInputs.cache
+C:\Users\Xoliswa Sitengile\source\repos\PRT Arrays prac\PRT Arrays prac\obj\Debug\PRT Arrays prac.exe
+C:\Users\Xoliswa Sitengile\source\repos\PRT Arrays prac\PRT Arrays prac\obj\Debug\PRT Arrays prac.pdb
