@@ -1,0 +1,7 @@
+C:\Users\Xoliswa Sitengile\source\repos\PRT Random number generator\PRT Random number generator\bin\Debug\PRT Random number generator.exe.config
+C:\Users\Xoliswa Sitengile\source\repos\PRT Random number generator\PRT Random number generator\bin\Debug\PRT Random number generator.exe
+C:\Users\Xoliswa Sitengile\source\repos\PRT Random number generator\PRT Random number generator\bin\Debug\PRT Random number generator.pdb
+C:\Users\Xoliswa Sitengile\source\repos\PRT Random number generator\PRT Random number generator\obj\Debug\PRT Random number generator.csprojAssemblyReference.cache
+C:\Users\Xoliswa Sitengile\source\repos\PRT Random number generator\PRT Random number generator\obj\Debug\PRT Random number generator.csproj.CoreCompileInputs.cache
+C:\Users\Xoliswa Sitengile\source\repos\PRT Random number generator\PRT Random number generator\obj\Debug\PRT Random number generator.exe
+C:\Users\Xoliswa Sitengile\source\repos\PRT Random number generator\PRT Random number generator\obj\Debug\PRT Random number generator.pdb
