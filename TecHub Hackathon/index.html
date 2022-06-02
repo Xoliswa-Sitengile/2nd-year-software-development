@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="with=device-width" , intial-scale="1.0">
+    <title>Local Affiliations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/adbebdfef4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img class="logo" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href=""> Home</a></li>
+                    <li><a href=""> Sign up</a></li>
+                    <li><a href=""> Guest</a></li>
+                    <li><a href=""> Member</a></li>
+                    <li><a href=""> Customer</a></li>
+                    <li><a href=""> Products & Services</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>We help businesses reach new heights</h1>
+            <p>
+                Local Affiliations is a platform that helps businesses grow <br />while giving them services to help them break into the digital age.<br />
+                This will help the consumer find credible businesses or service providers for what ever their needs may be,
+                while ensuring <br /> the business is of top standard and reaches industry requirements
+            </p>
+            <a href="" class="hero-btn">Sign up</a>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Sign Up -->
+    <section class="sign-up">
+        <h1> Sign up options</h1>
+        <br />
+        <h2> What we offer</h2>
+        <p> Signing up with us will take your business to the next level</p>
+
+        <div class="row">
+            <div class="Type">
+                <h3>Business</h3>
+                <p>
+                    As a business we will provide you the opportunity to build a client base that trusts the credibility of your product as they will serve as loyal
+                    customers.Customers always question whether a business is a fly by night or not we give ypu the opportunity to prove your authenticity with the
+                    option to upload  your business documents or regulatory certificates. For people with a viable idea and they are still informal and not registered
+                    we giive you all the information to start your business you will get links to register your busines. Our requirements are that you sign up as a
+                    member and put your company details like your registered name , registration year, registration number and business regulator
+                </p>
+
+            </div>
+
+            <div class="Type">
+                <h3>Guest</h3>
+                <p>Signing up as a guest gives you the opportunity to be part of our email services. You will be kept uo to date about any new specials or offers.</p>
+            </div>
+
+            <br />
+            <div class="Type">
+                <h3>Customer</h3>
+                <p>
+                    As a valued customer your safety and satisfaction is our priority. That is why we ensure you get the best from your local service
+                    providers and retailers. We have created a system that will ensure you get the best offer closest to you at an affordable price and seamlessly.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="information">
+        <!-- Guest -->
+        <section class="Guest">
+            <form method="post">
+                <h1> Guest</h1>
+                <h2>More about you</h2>
+                Name:     <input type="text" name="name" size="40" maxlength="40"><br /><br />
+                Surname:  <input type="text" name="surname" size="40" maxlength="40"><br /><br />
+                E-mail:   <input type="text" name="email" size="40" maxlength="40"><br /><br />
+                <br>
+                Tell us about your experience on our platform:<br />
+                <textarea name="comments" rows="15" cols="55">
+        Comments here.
+        </textarea><br /><br />
+
+            </form>>
+        </section>
+        <!--Customer-->
+        <h1> Customer</h1>
+        <h2>More about you</h2>
+        Name:     <input type="text" name="name" size="40" maxlength="40"><br /><br />
+        Surname:  <input type="text" name="surname" size="40" maxlength="40"><br /><br />
+        E-mail:   <input type="text" name="email" size="40" maxlength="40"><br /><br />
+        <br>
+        <section>
+        </section>
+
+        <section>
+            <!--Member-->
+            <form method="post">
+                <h1> Member</h1>
+                <h2>Business type</h2><br />
+                <p>
+                    <input type="radio" name="Group1" value="G201"> Established<br /><br />
+                    <input type="radio" name="Group1" value="G201"> Informal business<br />
+                    <a href="http://www.cipc.co.za/za/">CIPC</a>
+                </p><br />
+                <h2>Established business</h2>
+                Company Name:    <input type="text" name="company-name" size="40" maxlength="40"><br /><br />
+                Registration year:  <input type="text" name="registration-year" size="40" maxlength="40"><br /><br />
+                Company e-mail:   <input type="text" name="comapany-email" size="40" maxlength="40"><br /><br />
+                <br />
+                <h2>Business type</h2><br />
+                <p>
+                    <input type="radio" name="Group2" value="G202"> Products<br />
+                    <input type="radio" name="Group2" value="G202"> Services<br />
+                </p><br />
+                <h2>Business location status</h2><br />
+                <p>
+                    <input type="radio" name="Group3" value="G203"> Virtual<br />
+                    <input type="radio" name="Group3" value="G203"> None virtual<br />
+                </p><br />
+                <h2>Upload documents</h2>
+                <p>Click on the "Choose File" button to upload a file:</p>
+
+                <div action="upload">
+                    <input type="file" id="myFile" name="filename">
+
+                </div><br />
+                <h2>About the organization</h2>
+                <p>
+                    Please enter information about the organization for example <br />
+                    organizations goals, capabilities, problems, stakeholders and location.
+                </p>
+                <br />
+
+                <textarea name="comments" rows="15" cols="55">
+             
+               </textarea><br /><br />
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </div>
+    <!--Pictures-->
+    <section class="illustrations">
+        <div class="business-types"></div>
+        <img src="Services and examples.jpg" />
+    </section>
+
+    <div class="Products and services">
+        <h1>Products and services</h1>
+        <h2> Businesses</h2> <br />
+        <p>
+            We ensure that your busines runs smoothly be it virtually or onsite.<br />
+            We cater to your PR, marketing and logistics needs. No business is too small for us to manage.
+            <br />We ensure that we support local businesses which  contributes to build the economy
+        </p><br />
+
+        <h2> Customer</h2>
+        <p>We ensure that your money goes to good use and to the most reputable business or service provider</p>
+
+        <h2>Services</h2>
+        <p>We have a vhat services funtion for our services providers. this is to be aware if it will be a house call or not if needs be.</p>
+
+    </div>
+
+    <!---JavaScript for toggle menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
